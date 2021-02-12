@@ -1,10 +1,10 @@
-body{
+body{                                                                                                                       /* Sets the background color. Since there is a background image, the color is behind the image. */
     background-color: cornsilk;
     margin: 0px;
     padding: 0px;
 }
 
-ul {
+ul {                                                                                                                        /* Bullet points are hidden for the sub-headings */
     list-style: none;
 }
 
@@ -13,7 +13,7 @@ a {
     
 }
 
-section {
+section {                                                                                                                   /* Adds the cover page and customizes how it should look */
     width: 100%;
     height: 2000px;
     background-image: url("../images/img1.jpg");
@@ -21,7 +21,7 @@ section {
     background-size: cover;
 }
 
-nav {     /* adds a space between sub-headings */
+nav {                                                                                                                        /* adds a space between sub-headings */
     display: flex;
     justify-content: space-between;
     background-color: teal;
@@ -29,19 +29,19 @@ nav {     /* adds a space between sub-headings */
     padding: 0px;
 }
 
-nav ul {
+nav ul {                                                                                                                    /* Sub-headings are displayed through the flex command */
     display: flex;
 }
 
-nav ul li a {
+nav ul li a {                                                                                                               /* Customizes the sub-headings */
     margin: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300px;
 }
 
-.developer {
+.developer {                                                                                                                /* Customizes the <developer class> */
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 22px;
@@ -50,7 +50,79 @@ nav ul li a {
     padding: 20px;
 }
 
-.active {
+.active {                                                                                                                   /* Home tag which would the first tag to be active */
     font-weight: bold;
     color: lightskyblue;
 }
+
+.content p:nth-child(1){                                                                                                    /* First <p> tag */
+    color: white;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.content p:nth-child(2){                                                                                                    /* Second <p> tag */
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0px;
+    
+}
+
+.content p:nth-child(3){                                                                                                    /* Third <p> tag */
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.content p {                                                                                                                /* Customize the positioning of the <p> tag content */
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.button {                                                                                                                   /* Customizes the <button> class */
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: black; 
+    position: relative;                                                                                                     /* relative positioning after content absolute positioning. */
+    left: 6%;
+    top: 42%;
+    transform: translate(-6%, 42%);
+}
+
+.button:active{
+    transform: (1.1);
+}
+
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.content {
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, 42%);
+}
+
+
+/* For Friday, add the image and the rest of the sub-headings and end with a footer. 
