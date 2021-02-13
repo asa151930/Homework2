@@ -3,7 +3,7 @@
 }
 
 body{                                                                                                                       /* Sets the background color. Since there is a background image, the color is behind the image. */
-    background-color: cornsilk;
+    background-color: lightgrey;
     margin: 0px;
     padding: 0px;
     display: block;
@@ -185,9 +185,9 @@ nav ul li a {                                                                   
   }
   
   .flex-item {
-    border: 5px solid lightblue;
-    background-color: red;
-    color: black;
+    border: 5px solid lightskyblue;
+    background-color: lightcyan;
+    color: white;
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
@@ -213,11 +213,45 @@ nav ul li a {                                                                   
   }
   
   .flex-item div {
-    background-color: lightblue;
+    background-color: rgb(3, 22, 44);
     padding: 8px 10px;
   }
   
   .flex-item h2 {
     font-size: 1.6rem;
-    background-color: cornsilk;
+    background-color: black;
   }
+
+  .contact-info{
+      max-width: 2500%;
+      height: 100%;
+      margin:0;
+      
+      background-image: url("../images/img3.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+  }
+
+  .contact-info p{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+  }
+
+  /* for saturday
+
+  1. Update About me
+  2. Add images for work tab and add one project to the larger image
+  3. Add contact tab and info
+  4. Figure out the UI scross
+  5. Add media queries to view the page in varous tablets, laptops and phones
+  6. Add resume link
+  7. End the project with a footer and update the Readme before submitting the project. 
+  8. Attach both the link of the project and github link to bootcampspot for submission. 
+  */
