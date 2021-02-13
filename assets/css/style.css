@@ -16,7 +16,7 @@ a {
 section {                                                                                                                   /* Adds the cover page and customizes how it should look */
     width: 100%;
     height: 2000px;
-    background-image: url("../images/img1.jpg");
+    background-image: url("../images/img3.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,7 +24,7 @@ section {                                                                       
 nav {                                                                                                                        /* adds a space between sub-headings */
     display: flex;
     justify-content: space-between;
-    background-color: teal;
+    background-color: gray;
     box-shadow: 2px 2px 10px;
     padding: 0px;
 }
@@ -52,7 +52,7 @@ nav ul li a {                                                                   
 
 .active {                                                                                                                   /* Home tag which would the first tag to be active */
     font-weight: bold;
-    color: lightskyblue;
+    color:tomato;
 }
 
 .content p:nth-child(1){                                                                                                    /* First <p> tag */
@@ -92,7 +92,7 @@ nav ul li a {                                                                   
 .button {                                                                                                                   /* Customizes the <button> class */
     border: none;
     font-weight: bold;
-    color: white;
+    color: black;
     padding: 15px 20px;
     text-align: center;
     text-decoration:none;
@@ -100,11 +100,11 @@ nav ul li a {                                                                   
     font-size: 15px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: black; 
+    background-color: gray; 
     position: relative;                                                                                                     /* relative positioning after content absolute positioning. */
-    left: 6%;
+    left: 17%;
     top: 42%;
-    transform: translate(-6%, 42%);
+    transform: translate(-17%, 42%);
 }
 
 .button:active{
@@ -115,6 +115,7 @@ nav ul li a {                                                                   
 .button:hover {
     background-color: white;
     color: black;
+    font-weight: bold;
 }
 
 .content {
@@ -124,5 +125,36 @@ nav ul li a {                                                                   
     transform: translate(-13%, 42%);
 }
 
+.profile {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    left: 70%;
+    bottom: 50px;
+    transform: translateX(-70%); 
+}
 
-/* For Friday, add the image and the rest of the sub-headings and end with a footer. 
+.about-content {
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    border-radius: 0px;
+    box-shadow: 1px 1px 1px;
+    display:flex;
+    position:absolute;
+    left: 0px;
+    margin: -30% auto 10px auto;
+    align-content: center;   
+}
+
+.about-text{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.about-text h1 {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
