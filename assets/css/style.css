@@ -135,7 +135,7 @@ nav ul li a {                                                                   
 }
 
 .profile {
-    bottom: 665px;
+    bottom: 640px;                                                                                      /* Google chrome supported */
     left: 75%;
     overflow:hidden;
     height: 560px;
