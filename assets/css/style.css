@@ -152,7 +152,7 @@ nav ul li a {                                                                   
     border-radius: 20px;
     box-shadow: 2px 2px 12px;
     display: flex;
-    margin: 2% auto 25px auto;
+    margin: 1% auto 25px auto;
     position: relative;
 }
 
@@ -169,10 +169,10 @@ nav ul li a {                                                                   
 .work-content{
   color: black;
   font-weight: bold;
-  margin: 250px 0;
+  margin: 275px 0;
   padding: 0px 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
@@ -257,13 +257,13 @@ nav ul li a {                                                                   
     background-image: url("../images/stock.jpg");
   }
 
-  .code-refactor a{
+  .code-refactor  {
       background-image: url("../images/refactor.jpg");
-     
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 100px;
   }
-  
-  
- 
 
 @media screen and (max-width: 1000px){
     .profile{
@@ -276,7 +276,7 @@ nav ul li a {                                                                   
     top: 50%;
 } 
 .button{
-    margin: 5px; 
+    margin: 28px; 
 } 
 .main-content{
     width: 90%;
@@ -296,16 +296,8 @@ nav ul li a {                                                                   
 }
 .contact-me{
     height: 200px;
-
 }
 }
-
-
-
-
-
-
-/* contact info */
 
 .contact-me {
     width: 100%;
@@ -330,31 +322,4 @@ nav ul li a {                                                                   
     padding: 20px;
     margin: 0px;
     color: white;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* for saturday
-
-  
-  3. Add contact tab and info
-  
-  5. Add media queries to view the page in varous tablets, laptops and phones
-  6. Add resume link
-  7. End the project with a footer and update the Readme before submitting the project. 
-  
-  */
+}
