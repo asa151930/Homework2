@@ -205,7 +205,7 @@ nav ul li a {                                                                   
   .flex-item {
     border: 5px solid blue;
     background-color: lightslategray;
-    color:maroon;
+    color:pink;
     font-weight: bolder;
     min-height: 150px;
     max-height: 150px;
@@ -267,8 +267,8 @@ nav ul li a {                                                                   
 
 @media screen and (max-width: 1000px){
     .profile{
-        height: 460px;
-        left: 90%;
+        height: 550px;
+        left: 96%;
         transform: translateX(-90%);
     }
 
@@ -286,8 +286,18 @@ nav ul li a {                                                                   
     width: 400px;
 }
 
+.main-content{
+    padding: 2% 5% 0px 5%;
+    height: auto;
+}
+.flex-container{
+    flex-grow: 1;
+    margin: 10px;
+}
+.contact-me{
+    height: 200px;
 
-
+}
 }
 
 
