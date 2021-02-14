@@ -1,4 +1,4 @@
-# Homework2 
+# Homework2
 
 # Make a Portfolio
 
@@ -26,5 +26,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 # HTML Code Screenshots
 
+![alt text](assets/images/index1.png)
+![alt text](assets/images/index2.png)
 
+# Project link
+
+https://asa151930.github.io/Homework2/
 
