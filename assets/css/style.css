@@ -35,6 +35,7 @@ nav {                                                                           
     background-color: gray;
     box-shadow: 2px 2px 10px;
     padding: 0px;
+    
 }
 
 nav ul {                                                                                                                    /* Sub-headings are displayed through the flex command */
@@ -134,7 +135,7 @@ nav ul li a {                                                                   
 }
 
 .profile {
-    bottom: 665px;
+    bottom: 625px;
     left: 75%;
     overflow:hidden;
     height: 560px;
@@ -169,7 +170,7 @@ nav ul li a {                                                                   
   color: black;
   font-weight: bold;
   margin: 250px 0;
-  padding: 10px 0;
+  padding: 0px 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -178,14 +179,145 @@ nav ul li a {                                                                   
   position: absolute;
 }
 
+.work-content > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid red;
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.work-content > div {
+    flex: 0 0 77%;
+  }
+  
+  .work-content p {
+    margin-bottom: 20px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .flex-item {
+    border: 5px solid blue;
+    background-color: lightslategray;
+    color:maroon;
+    font-weight: bolder;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+  }
+
+.flex-item:first-child {
+    min-height: 400px;
+    width: 100%;
+    flex-basis: auto;
+}
+
+.flex-item:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.flex-item div {
+  background-color: var(--secondary);
+  padding: 8px 10px;
+}
+
+.flex-item h3 {
+  font-size: 1.6rem;
+ 
+}
+
+.fortnite {
+    background-image: url("../images/fortnite.jpg");
+  }
+  
+  .resort {
+    background-image: url("../images/resort.jpg");
+  }
+  
+  .coding {
+    background-image: url("../images/html.jpg");
+  }
+  
+  .stock{
+    background-image: url("../images/stock.jpg");
+  }
+
+  .code-refactor a{
+      background-image: url("../images/refactor.jpg");
+     
+  }
+  
+  
+/* media queries */
+
+@media screen and (max-width: 980px)
+
+
+
+
+
+
+/* contact infor */
+
+.contact-me {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    border-radius: 0px;
+    box-shadow: 2px 2px 12px;
+    display: inline;
+    margin: 2% auto 25px auto;
+    position: relative;
+}
+
+.contact-me h2{
+    padding: 20px;
+    margin: 0px;
+}
+
+.contact-me p{
+    padding: 5px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* for saturday
 
-  1. Update About me
-  2. Add images for work tab and add one project to the larger image
+  
   3. Add contact tab and info
-  4. Figure out the UI scross
+  
   5. Add media queries to view the page in varous tablets, laptops and phones
   6. Add resume link
   7. End the project with a footer and update the Readme before submitting the project. 
-  8. Attach both the link of the project and github link to bootcampspot for submission. 
+  
   */
