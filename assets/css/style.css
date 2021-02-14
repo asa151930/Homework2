@@ -205,7 +205,7 @@ nav ul li a {                                                                   
   .flex-item {
     border: 5px solid blue;
     background-color: lightslategray;
-    color:pink;
+    color:yellow;
     font-weight: bolder;
     min-height: 150px;
     max-height: 150px;
@@ -262,7 +262,7 @@ nav ul li a {                                                                   
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center center;
-      width: 100px;
+      width: 50px;
   }
 
 @media screen and (max-width: 1000px){
@@ -297,6 +297,17 @@ nav ul li a {                                                                   
 .contact-me{
     height: 200px;
 }
+}
+
+@media screen and (max-width: 768px){
+  .flex-item,
+  .flex-item:first-child {
+    flex-basis: 100%;
+  }
+
+  .flex-item:first-child {
+    min-height: 150px;
+  }
 }
 
 .contact-me {
